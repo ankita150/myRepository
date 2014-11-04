@@ -169,7 +169,7 @@ System.out.println(eachwind.getText());
 
 
 
-@Test(enabled = false)
+@Test(enabled = true)
 public void GspannValidation() throws Exception
 {
 	Excel excel = new Excel();
