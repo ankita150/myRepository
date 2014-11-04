@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="RunInChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="seleniumpackage.SeleniumWebdrivers">
+        <methods>
+          <include name="Quit"/>
+          <include name="Quit"/>
+          <include name="Quit"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyLogo"/>
+        </methods>
+      </class> <!-- seleniumpackage.SeleniumWebdrivers -->
+    </classes>
+  </test> <!-- RunInChrome(failed) -->
+  <test name="RunInIE(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="seleniumpackage.SeleniumWebdrivers">
+        <methods>
+          <include name="Quit"/>
+          <include name="Quit"/>
+          <include name="Quit"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyLogo"/>
+        </methods>
+      </class> <!-- seleniumpackage.SeleniumWebdrivers -->
+    </classes>
+  </test> <!-- RunInIE(failed) -->
+  <test name="RunInFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="seleniumpackage.SeleniumWebdrivers">
+        <methods>
+          <include name="Quit"/>
+          <include name="Quit"/>
+          <include name="Quit"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyLogo"/>
+        </methods>
+      </class> <!-- seleniumpackage.SeleniumWebdrivers -->
+    </classes>
+  </test> <!-- RunInFirefox(failed) -->
+</suite> <!-- Failed suite [Regression] -->

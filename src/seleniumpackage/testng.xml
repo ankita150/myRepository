@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Regression"  parallel = "tests">
+
+ <test name="RunInChrome">
+          <parameter name="browser" value="chrome">
+          <classes preserve-order="true"> 
+           <class name="seleniumpackage.SeleniumWebdrivers">
+               
+               
+         		</class>
+               </classes>
+				</parameter>
+               </test>
+               
+ <test name="RunInFirefox">
+          <parameter name="browser" value="firefox">
+           <classes preserve-order="true"> 
+           <class name="seleniumpackage.SeleniumWebdrivers">
+               
+  </class>
+  </classes>
+  </parameter>
+  </test>
+  
+  <test name="RunInIE">
+          <parameter name="browser" value="ie">
+           <classes preserve-order="true"> 
+           <class name="seleniumpackage.SeleniumWebdrivers">
+               
+  </class>
+  </classes>
+  </parameter>
+  </test>
+  </suite>
